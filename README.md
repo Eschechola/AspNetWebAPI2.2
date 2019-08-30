@@ -1,2 +1,3 @@
 # Tutorial-Medium-API
-API Restful utilizando .NET Core, Entity Framework, MySql e JWT
+API Restful utilizando .NET Core, Entity Framework, MySql e JWT<br>
+Artigo em breve no medium...
