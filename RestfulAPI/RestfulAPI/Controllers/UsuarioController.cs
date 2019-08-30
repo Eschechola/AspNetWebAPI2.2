@@ -21,16 +21,6 @@ namespace RestfulAPI.Controllers
 
         public IActionResult Index()
         {
-            var usuario = new Usuarios()
-            {
-                Nome = "Lucas",
-                Email = "lucas@eu.com",
-                Senha = "eschechola123"
-            };
-
-            _contexto.Add(usuario);
-            _contexto.SaveChanges();
-
             return Ok("Index API - medium.com/@lucas.eschechola");
         }
     }
