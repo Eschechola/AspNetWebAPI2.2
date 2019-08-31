@@ -12,9 +12,9 @@ namespace RestfulAPI.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly UsuarioContext _contexto;
+        private readonly ApiContext _contexto;
 
-        public UsuarioController(UsuarioContext contexto)
+        public UsuarioController(ApiContext contexto)
         {
             _contexto = contexto;
         }

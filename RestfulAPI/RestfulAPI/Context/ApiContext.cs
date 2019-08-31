@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace RestfulAPI.Models
 {
-    public partial class UsuarioContext : DbContext
+    public partial class ApiContext : DbContext
     {
-        public UsuarioContext()
+        public ApiContext()
         {
         }
 
-        public UsuarioContext(DbContextOptions<UsuarioContext> options)
+        public ApiContext(DbContextOptions<ApiContext> options)
             : base(options)
         {
         }
