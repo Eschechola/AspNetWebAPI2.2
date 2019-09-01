@@ -32,7 +32,7 @@ namespace RestfulAPI.Models
                 entity.Property(e => e.Email)
                     .IsRequired()
                     .HasColumnName("email")
-                    .HasColumnType("varchar(150)");
+                    .HasColumnType("varchar(80)");
 
                 entity.Property(e => e.Nome)
                     .IsRequired()
