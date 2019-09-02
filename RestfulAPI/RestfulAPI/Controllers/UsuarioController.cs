@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -29,6 +30,7 @@ namespace RestfulAPI.Controllers
 
         [HttpPost]
         [Route("InsertUser")]
+        [Authorize]
         public IActionResult InsertUser([FromBody]Usuarios usuarioEnviado)
         {
             try
@@ -51,6 +53,7 @@ namespace RestfulAPI.Controllers
 
         [HttpPut]
         [Route("UpdateUser")]
+        [Authorize]
         public IActionResult UpdateUser([FromBody]Usuarios usuarioEnviado)
         {
             try
@@ -73,6 +76,7 @@ namespace RestfulAPI.Controllers
 
         [HttpPost]
         [Route("GetUserByEmail")]
+        [Authorize]
         public IActionResult GetClienteByEmail([FromBody]string email)
         {
             try
@@ -104,6 +108,7 @@ namespace RestfulAPI.Controllers
 
         [HttpGet]
         [Route("GetAllUsers")]
+        [Authorize]
         public IActionResult GetAllClientes()
         {
             try
@@ -128,6 +133,7 @@ namespace RestfulAPI.Controllers
 
         [HttpDelete]
         [Route("DeleteUserByEmail")]
+        [Authorize]
         public IActionResult DeleteUserByEmail([FromBody]string email)
         {
             try
