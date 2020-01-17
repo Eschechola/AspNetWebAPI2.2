@@ -1,11 +1,8 @@
-# Tutorial-Medium-API
-API REST utilizando .NET Core, Entity Framework, MySql e JWT<br>
-<h1> API usada de exemplo em 4 artigos no medium </h1>
+# Medium-API-REST-NETCORE-JWT
+Exemplo de API REST utilizando .NET Core 2.2, JWT e MySql para artigos no medium.<br>
 
-<br><br>
-
-<strong>LINKS:</strong>
-
+Link do artigo:
+<br>
 <ol>
   <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-i-10752de4d8e1</li>
   <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-ii-5e415cd2f6e0</li>
