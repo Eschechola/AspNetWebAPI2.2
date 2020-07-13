@@ -1,11 +1,12 @@
 # Medium-API-REST-NETCORE-JWT
 Exemplo de API REST utilizando .NET Core 2.2, JWT e MySql para artigos no medium.<br>
 
-Link do artigo:
+Links:
 <br>
-<ol>
-  <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-i-10752de4d8e1</li>
-  <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-ii-5e415cd2f6e0</li>
-  <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-iii-b3a0877989e3</li>
-  <li>https://medium.com/@lucas.eschechola/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-iv-final-96465c936263.</li>
-</ol>
+1 - Parte I - <a href="https://eschechola.com.br/2019/09/01/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-i">Leia Agora</a>
+<br>
+2 - Parte II - <a href="https://eschechola.com.br/2019/09/01/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-ii">Leia Agora</a>
+<br>
+3 - Parte III - <a href="https://eschechola.com.br/2019/09/01/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-iii">Leia Agora</a>
+<br>
+4 - Parte IV - <a href="https://eschechola.com.br/2019/09/02/construindo-apis-restful-com-net-core-usando-entity-framework-e-jwt-parte-iv-final">Leia Agora</a>
